@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap" rel="stylesheet">
+        <title>Home Page</title>
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <script src="jquery-3.7.0.js"></script>
+        <script>
+            function scrollto(div)
+            {
+             $('html,body').animate(
+             {
+              scrollTop: $("#"+div).offset().top
+             },'slow');
+            }
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <section class="one" id="one">
+                <img id="logo" src="logo-transparent-png.png" alt="">
+                <li onclick="scrollto('one');">HOME</li>
+                <li onclick="scrollto('two');">ABOUT</li>
+                <li onclick="scrollto('three');">ROUTINE</li>
+                <li onclick="scrollto('four');">EXERCISES</li>
+                <li onclick="scrollto('five');">DIET</li>
+                <br>
+                <h1>Calisthenics</h1>
+                <h3>Get stronger, fitter and leaner</h3>
+            </section>
+            <section class="two" id="two">
+                <img id="logo" src="logo-transparent-png.png" alt="">
+                <li onclick="scrollto('one');">HOME</li>
+                <li onclick="scrollto('two');">ABOUT</li>
+                <li onclick="scrollto('three');">ROUTINE</li>
+                <li onclick="scrollto('four');">EXERCISES</li>
+                <li onclick="scrollto('five');">DIET</li>
+                <br>
+                <h1>About</h1>
+                <h3>This website was made for me and many others to stay fit and healthy with a very effective routine, diet and a variety of different excersises to choose from!</h3>
+            </section>
+            <section id="three" class="three">
+                <img id="logo" src="logo-transparent-png.png" alt="">
+                <li onclick="scrollto('one');">HOME</li>
+                <li onclick="scrollto('two');">ABOUT</li>
+                <li onclick="scrollto('three');">ROUTINE</li>
+                <li onclick="scrollto('four');">EXERCISES</li>
+                <li onclick="scrollto('five');">DIET</li>
+            </section>
+            <section id="three" class="four">
+                <img id="logo" src="logo-transparent-png.png" alt="">
+                <li onclick="scrollto('one');">HOME</li>
+                <li onclick="scrollto('two');">ABOUT</li>
+                <li onclick="scrollto('three');">ROUTINE</li>
+                <li onclick="scrollto('four');">EXERCISES</li>
+                <li onclick="scrollto('five');">DIET</li>
+            </section>
+            <section id="three" class="five">
+                <img id="logo" src="logo-transparent-png.png" alt="">
+                <li onclick="scrollto('one');">HOME</li>
+                <li onclick="scrollto('two');">ABOUT</li>
+                <li onclick="scrollto('three');">ROUTINE</li>
+                <li onclick="scrollto('four');">EXERCISES</li>
+                <li onclick="scrollto('five');">DIET</li>
+            </section>
+        </div>
+    </body>
+</html>

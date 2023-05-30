@@ -1,0 +1,49 @@
+
+h1{
+    color: rgb(204, 204, 204);
+    font-size: 100px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 2%;
+}
+h3{
+    color: rgb(131, 129, 129);
+    font-size: 48px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 2%;
+}
+a{
+    text-decoration: none;
+}
+#logo{
+    width: 500px;
+    height: 63.5px;
+    float: left;
+}
+section{
+    height: 100vh;
+}
+#two2{
+    color: black;
+    font-size: 48px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0%;
+    padding: 5%;
+}
+.one {
+    background-image: url(https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2021-12/211208-working-out-stock-mn-1310-55e1c7.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.two {
+    background-color: rgb(66, 66, 66);
+    margin-top: 10px;
+}
+li {
+    display:inline-block;
+    margin-left:25px;
+    font-size:48px;
+    color:#084B8A;
+    font-weight:bold;
+    cursor:pointer;
+    font-family: 'Ubuntu';
+}
